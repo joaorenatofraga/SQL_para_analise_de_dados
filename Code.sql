@@ -39,3 +39,7 @@ SELECT AVG(valor) FROM vendas;
 --10. Calcular soma
 
 SELECT SUM(valor) FROM vendas;
+
+--11. Join
+
+SELECT * FROM vendas JOIN B ON vendas.ID = B.ID;
